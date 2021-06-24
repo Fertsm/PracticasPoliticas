@@ -1,0 +1,7 @@
+  
+config/local
+pruebaimagenes/*.jpg
+pruebaimagenes/*.png
+*.log*
+*.swp*
+*.iml*
