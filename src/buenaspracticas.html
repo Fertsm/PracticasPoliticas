@@ -10,6 +10,9 @@
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="assets/styles/news_styles.css">
 <link rel="stylesheet" type="text/css" href="assets/styles/news_responsive.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="assets/styles/contact_styles.css">
+<link rel="stylesheet" type="text/css" href="assets/styles/contact_responsive.css">
 </head>
 <body>
 
@@ -23,7 +26,7 @@
 			<div class="logo_container">
 				<div class="logo">
 					<img src="images/logo.png" alt="">
-					
+					<span>course</span>
 				</div>
 			</div>
 
@@ -195,6 +198,73 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 
 				<!-- Sidebar Column -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<div class="contact_form">
+						<div class="contact_title">Apartado de comentarios.</div>
+
+						<div class="contact_form_container">
+							<form action="post">
+								<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Nombre" required="required" data-error="Name is required.">
+
+								<input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
+
+								<textarea id="contact_form_message" class="text_field contact_form_message" name="message" placeholder="Por favor escriba su mensaje." required="required" data-error="Please, write us a message."></textarea>
+
+
+								<div class="col-6 col-12-small">
+													<input type="checkbox" id="terminos" name="terminos" required>
+													<label for="terminos" class="check">Acepta los terminos y condiciones</label>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" name="submit" id="btn_comentario" value="Enviar mensaje" class="contact_send_btn trans_200"/></li>
+														<br>
+														<li><input type="reset" name="reset" value="Limpiar campos" class="contact_send_btn trans_200" /></li>
+
+													</ul>
+												</div>
+												<div class="mensaje" id="no-exito">
+													
+													<input type="text"  value="ERROR! Comentario enviado correctamente" />
+												</div>
+												<div class="mensaje-exito" id="exito">
+													
+													<input type="text"  value="EXITOSO. Comentario enviado correctamente" />
+												</div>
+
+								
+							</form>
+						</div>
+					</div>
+						
+				</div>
+
+
+
+
+
+
+
+
+
+
+
 
 				
 	<!-- Footer -->
