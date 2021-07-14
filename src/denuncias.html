@@ -94,8 +94,7 @@
 		</div>
 
 	</div>
-	
-	<!-- Home -->
+
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
@@ -117,31 +116,30 @@
 					<div class="contact_form">
 						<div class="contact_title">Llena tu denuncia</div>
 						<div class="contact_form_container">
-							<form action="post">
-								<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Nombre completo" required="required" data-error="Name is required.">
-								<input id="contact_form_email" class="input_field contact_form_email" type="text" placeholder="Edad" required="required" data-error="Valid edad is required.">
-								<input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">  
-								<textarea id="contact_form_message" class="text_field contact_form_message" name="message" placeholder="Detalles de tu denuncia" required="required" data-error="Please, write us a message."></textarea>
+							<form action="post"  id="formulario">
+								<input id="nombre" class="input_field contact_form_name" type="text" placeholder="Nombre completo" required="required" data-error="Name is required.">
+								<input id="edad" class="input_field contact_form_email" type="text" placeholder="Edad" required="required" data-error="Valid edad is required.">
+								<input id="email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">  
+								<textarea id="denuncia" class="text_field contact_form_message" name="denuncia" placeholder="Detalles de tu denuncia" required="required" data-error="Please, write us a message."></textarea>
 								
 								<h6>¿Quien esta llevando acabo una mala práctica política?</h6>
        							<label>
-           						<input type="radio" name="color" value="azul">                                                                                                                                                     Partido politico
+           						<input id="partido" type="radio" name="color" value="azul">                                                                                                                                                     Partido politico
      							</label>
      							<label>
-           						<input type="radio" name="color" value="azul">                                                                                                                                                    Contendiente politico 
+           						<input id="contendiente" type="radio" name="color" value="azul">                                                                                                                                                    Contendiente politico 
      							</label>
        							<label>
-           						<input  type="radio" name="color" value="azul">                                                                                                                                                    Funcionario publico
+           						<input  id="funcionario" type="radio" name="color" value="azul">                                                                                                                                                    Funcionario publico
      							</label>
      							<label>
-           						<input type="radio" name="color" value="azul">                                                                                                                                                    Otro
+           						<input id="otro" type="radio" name="color" value="azul">                                                                                                                                                    Otro
      							</label></br>
      							</br>
-								<button id="contact_send_btn" type="button" class="contact_send_btn trans_200" value="Submit">Enviar mi denuncia</button>
+								<button id="enviar" type="button" class="contact_send_btn trans_200" value="Submit">Enviar mi denuncia</button>
 							</form>
 						</div>
 					</div>
-						
 				</div>
 
 				<div class="col-lg-4">
@@ -279,6 +277,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
 <script src="assets/plugins/easing/easing.js"></script>
 <script src="assets/js/contact_custom.js"></script>
+<script src="./assets/js/funcionesg.js"></script>
 
 </body>
 </html>
